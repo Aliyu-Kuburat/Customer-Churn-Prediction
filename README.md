@@ -34,7 +34,7 @@ The analysis revealed major churn drivers:
 
 7.	Strategic Recommendations
 Based on the insights, the following strategies are recommended:
-1. Reduce month-to-month churn through incentives and loyalty programs.
+  1. Reduce month-to-month churn through incentives and loyalty programs.
 2. Improve early customer experience with onboarding support.
 3. Increase adoption of service bundles such as security and tech support.
 4. Diagnose and address dissatisfaction among fiber optic users.
