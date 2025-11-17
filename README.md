@@ -24,19 +24,19 @@ Three models were trained: Random Forest, Logistic Regression, and XGBoost. Rand
 
 6.	Key Drivers of Churn
 The analysis revealed major churn drivers:
-• Month-to-month contract type
-• Low tenure
-• High monthly charges
-• Lack of support services (Tech Support, Online Security)
-• Fiber optic internet service
-• Paperless billing
-• Senior citizen customers
-• Lack of device protection These factors provide the foundation for targeted retention efforts.
+-  Month-to-month contract type
+-  Low tenure
+-  High monthly charges
+-  Lack of support services (Tech Support, Online Security)
+-  Fiber optic internet service
+-  Paperless billing
+-  Senior citizen customers
+-  Lack of device protection These factors provide the foundation for targeted retention efforts.
 
 7.	Strategic Recommendations
 Based on the insights, the following strategies are recommended:
-  1. Reduce month-to-month churn through incentives and loyalty programs.
-2. Improve early customer experience with onboarding support.
+  -   Reduce month-to-month churn through incentives and loyalty programs.
+-  Improve early customer experience with onboarding support.
 3. Increase adoption of service bundles such as security and tech support.
 4. Diagnose and address dissatisfaction among fiber optic users.
 5. Offer value-based pricing to high-charge customers.
