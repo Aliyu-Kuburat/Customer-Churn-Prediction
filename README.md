@@ -11,7 +11,7 @@ The dataset contains demographic information, contract details, billing data, an
 
 3.	Exploratory Insights
 Several behavioral and service-related patterns were observed:
-   • Customers on month-to-month contracts leave more frequently.
+   -  Customers on month-to-month contracts leave more frequently.
    • New customers with lower tenure show a higher churn rate.
    • Higher monthly charges correlate with dissatisfaction and churn.
    • Customers lacking online security, tech support, or device protection are more likely to leave.
