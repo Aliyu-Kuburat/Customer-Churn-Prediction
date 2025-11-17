@@ -10,9 +10,10 @@ This report presents a full analysis of customer churn for a telecommunications 
 2.	Data Overview
 The dataset contains demographic information, contract details, billing data, and service usage. The target variable is Churn, indicating whether a customer has discontinued service. Before modeling, the data was cleaned, encoded, and structured to ensure accuracy and consistency.
 
-3. The dataset utilized for this project was "/content/WA_Fn-UseC_-Telco-Customer-Churn.csv", containing 7043 rows (customers) and 21 columns (features) with 'Churn' as the target variable.
+   The dataset utilized for this project was "/content/WA_Fn-UseC_-Telco-Customer-Churn.csv", containing 7043 rows (customers) and 21 columns (features) with 'Churn' as the    target variable.
 
-Analysis Steps:
+## Analysis Steps:
+
 1.	Data Cleaning and Preprocessing:
 - The TotalCharges column, initially an object type, was converted to a numeric (float) type. During this process, null values introduced by coercion were implicitly        handled as NaN. (However, it was observed that no nulls were initially present based on df.isna().sum() and df.info() output, but pd.to_numeric can introduce them).
 - 	Checked for and confirmed no duplicate rows were present.
@@ -60,10 +61,10 @@ Several behavioral and service-related patterns were observed:
    -  Customers lacking online security, tech support, or device protection are more likely to leave.
    -  Fiber optic customers exhibited higher churn than DSL customers.
 
-4.	Predictive Modeling
+5.	Predictive Modeling
 Three models were trained: Random Forest, Logistic Regression, and XGBoost. Random Forest achieved the strongest balance of accuracy, recall, and robustness, making it the recommended model for deployment. Logistic Regression offered the best explainability, while XGBoost performed competitively across metrics.
 
-5.	Key Drivers of Churn
+6.	Key Drivers of Churn
 The analysis revealed major churn drivers:
 -  Month-to-month contract type
 -  Low tenure
@@ -78,9 +79,13 @@ The analysis revealed major churn drivers:
 The Random Forest model has been deployed using Streamlit. All encoders, the model file, and preprocessing steps have been packaged for real-time predictions. The app allows business teams to input customer attributes and instantly receive churn predictions, supporting fast, data-driven decision-making.
 
 ### Model Recommendations:
+
 Based on the comparative analysis, Random Forest and XGBoost models demonstrate superior predictive performance for identifying customer churn. Therefore, Random Forest or XGBoost are recommended for deployment in production environments where accurate churn prediction is paramount. Their higher accuracy and robust handling of complex relationships make them ideal for predictive tasks.
+
 For explaining churn drivers to stakeholders and gaining interpretable insights, Logistic Regression is the preferred model. Its coefficients directly indicate the direction and magnitude of a feature's impact on churn, making it excellent for communicating 'why' a customer might churn.
+
 ### Key Churn Drivers:
+
 The analysis consistently highlighted several significant factors driving customer churn across all models:
 •	Contract Type: Month-to-month contracts are a very strong indicator of churn.
 •	Tenure: Customers with shorter tenures are significantly more likely to churn.
@@ -92,8 +97,10 @@ The analysis consistently highlighted several significant factors driving custom
 •	Senior Citizen: Senior citizens have a higher churn rate.
 •	Device Protection: Lack of device protection also contributes to churn.
 
-Actionable Retention Strategies:
+## Actionable Retention Strategies:
+
 To mitigate customer churn, the telecom company should implement targeted strategies focusing on the identified drivers:
+
 1.	Target Month-to-Month Contract Customers: Offer incentives (e.g., discounts, bundled services, loyalty bonuses) to encourage customers on month-to-month contracts to switch to longer-term contracts (one-year or two-year), thereby increasing their commitment.
 2.	Early Tenure Engagement: Implement proactive engagement programs for new customers, particularly within their first year, to ensure satisfaction and address any early issues that might lead to churn.
 3.	Bundle Security & Support Services: Actively promote and bundle online security and tech support services, especially for customers currently without them. Highlight the value and benefits of these services to improve retention.
