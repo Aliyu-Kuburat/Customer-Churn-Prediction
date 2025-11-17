@@ -36,13 +36,13 @@ The analysis revealed major churn drivers:
 7.	Strategic Recommendations
 Based on the insights, the following strategies are recommended:
   -   Reduce month-to-month churn through incentives and loyalty programs.
--  Improve early customer experience with onboarding support.
-3. Increase adoption of service bundles such as security and tech support.
-4. Diagnose and address dissatisfaction among fiber optic users.
-5. Offer value-based pricing to high-charge customers.
-6. Improve engagement and communication for paperless billing users.
-7. Provide simplified plans and dedicated support for senior citizens.
-8. Promote device protection bundles to reduce service frustration.
+  -  Improve early customer experience with onboarding support.
+  -  Increase adoption of service bundles such as security and tech support.
+  -  Diagnose and address dissatisfaction among fiber optic users.
+  -  Offer value-based pricing to high-charge customers.
+  -  Improve engagement and communication for paperless billing users.
+  -  Provide simplified plans and dedicated support for senior citizens.
+  -  Promote device protection bundles to reduce service frustration.
 
 9.	Model Deployment
 The Random Forest model has been deployed using Streamlit. All encoders, the model file, and preprocessing steps have been packaged for real-time predictions. The app allows business teams to input customer attributes and instantly receive churn predictions, supporting fast, data-driven decision-making.
