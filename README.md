@@ -20,10 +20,10 @@ Several behavioral and service-related patterns were observed:
 
       These findings informed both modeling and strategy recommendations.
 
-5.	Predictive Modeling
+4.	Predictive Modeling
 Three models were trained: Random Forest, Logistic Regression, and XGBoost. Random Forest achieved the strongest balance of accuracy, recall, and robustness, making it the recommended model for deployment. Logistic Regression offered the best explainability, while XGBoost performed competitively across metrics.
 
-6.	Key Drivers of Churn
+5.	Key Drivers of Churn
 The analysis revealed major churn drivers:
 -  Month-to-month contract type
 -  Low tenure
@@ -34,7 +34,7 @@ The analysis revealed major churn drivers:
 -  Senior citizen customers
 -  Lack of device protection These factors provide the foundation for targeted retention efforts.
 
-7.	Strategic Recommendations
+6.	Strategic Recommendations
 Based on the insights, the following strategies are recommended:
   -   Reduce month-to-month churn through incentives and loyalty programs.
   -  Improve early customer experience with onboarding support.
@@ -45,10 +45,10 @@ Based on the insights, the following strategies are recommended:
   -  Provide simplified plans and dedicated support for senior citizens.
   -  Promote device protection bundles to reduce service frustration.
 
-9.	Model Deployment
+7.	Model Deployment
 The Random Forest model has been deployed using Streamlit. All encoders, the model file, and preprocessing steps have been packaged for real-time predictions. The app allows business teams to input customer attributes and instantly receive churn predictions, supporting fast, data-driven decision-making.
 
-10.	Business Impact
+8.	Business Impact
     Implementing churn prediction and retention strategies will:
 -  Reduce customer loss and stabilize recurring revenue.
 -  Improve targeting for marketing and retention campaigns.
@@ -56,7 +56,7 @@ The Random Forest model has been deployed using Streamlit. All encoders, the mod
 -  Support strategic service improvements based on data-driven insights.
   Overall, this system empowers the business with proactive churn management capabilities.
 
-12.	Conclusion
+  Conclusion
 The churn analysis and predictive model provide a clear understanding of why customers leave and how to prevent it. Using the Random Forest model, the company can identify at-risk customers early and take effective action. This report lays the groundwork for stronger retention strategies, improved customer experience, and long-term revenue growth.
 
 View Deployment
