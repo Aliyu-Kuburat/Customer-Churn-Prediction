@@ -1,5 +1,6 @@
 # Customer-Churn-Prediction
-Build a system that predicts if a customer will stop using a service (churn). You’ll clean and analyze data, create useful features, train models (Logistic Regression, Random Forest, XGBoost), and deploy your model with Streamlit so users can test churn predictions.
+
+## Build a system that predicts if a customer will stop using a service (churn). You’ll clean and analyze data, create useful features, train models (Logistic Regression, Random Forest, XGBoost), and deploy your model with Streamlit so users can test churn predictions.
 
 Telco Customer Churn Analysis Report
 
@@ -49,10 +50,10 @@ The Random Forest model has been deployed using Streamlit. All encoders, the mod
 
 10.	Business Impact
     Implementing churn prediction and retention strategies will:
-• Reduce customer loss and stabilize recurring revenue.
-• Improve targeting for marketing and retention campaigns.
-• Enhance customer satisfaction and lifetime value.
-• Support strategic service improvements based on data-driven insights.
+-  Reduce customer loss and stabilize recurring revenue.
+-  Improve targeting for marketing and retention campaigns.
+-  Enhance customer satisfaction and lifetime value.
+-  Support strategic service improvements based on data-driven insights.
   Overall, this system empowers the business with proactive churn management capabilities.
 
 12.	Conclusion
