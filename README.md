@@ -10,7 +10,7 @@ This report presents a full analysis of customer churn for a telecommunications 
 2.	Data Overview
 The dataset contains demographic information, contract details, billing data, and service usage. The target variable is Churn, indicating whether a customer has discontinued service. Before modeling, the data was cleaned, encoded, and structured to ensure accuracy and consistency.
 
-The dataset utilized for this project was "/content/WA_Fn-UseC_-Telco-Customer-Churn.csv", containing 7043 rows (customers) and 21 columns (features) with 'Churn' as the target variable.
+3. The dataset utilized for this project was "/content/WA_Fn-UseC_-Telco-Customer-Churn.csv", containing 7043 rows (customers) and 21 columns (features) with 'Churn' as the target variable.
 
 Analysis Steps:
 1.	Data Cleaning and Preprocessing:
